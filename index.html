@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Breaking Bias, Building Bridges</title>
+    <meta name="description" content="Project page for Breaking Bias, Building Bridges: Evaluation and Mitigation of Social Biases in LLMs via Contact Hypothesis." />
+    <link rel="canonical" href="https://iamshnoo.github.io/breaking_bias_building_bridges/" />
+    <link rel="stylesheet" href="paper-site.css" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Breaking Bias, Building Bridges" />
+    <meta property="og:description" content="Contact-hypothesis prompting and instruction tuning for measuring and reducing social biases in LLMs." />
+    <meta property="og:url" content="https://iamshnoo.github.io/breaking_bias_building_bridges/" />
+    <meta property="og:image" content="https://iamshnoo.github.io/images/optimized/full/breaking-bias-full.0c2153a675.webp" />
+    <meta property="og:image:alt" content="Breaking Bias figure" />
+  </head>
+  <body>
+    <main class="page">
+      <a class="back-link" href="https://iamshnoo.github.io/#breaking-bias">Back to selected publications</a>
+      <header class="hero">
+        <span class="venue">AIES '24 Oral</span>
+        <h1>Breaking Bias, Building Bridges: Evaluation and Mitigation of Social Biases in LLMs via Contact Hypothesis</h1>
+        <p class="authors"><a href="https://chahatraj.github.io/">Chahat Raj</a><sup>*</sup>, <a href="https://iamshnoo.github.io/">Anjishnu Mukherjee</a><sup>*</sup>, <a href="https://faculty.washington.edu/aylin/">Aylin Caliskan</a>, <a href="https://antonisa.github.io/">Antonios Anastasopoulos</a>, <a href="https://zziwei.github.io/">Ziwei Zhu</a></p>
+        <p class="affiliation"><span class="equal-note">*</span> Equal contribution</p>
+        <nav class="links" aria-label="Paper links">
+          <a href="https://arxiv.org/pdf/2407.02030">PDF</a>
+          <a href="https://doi.org/10.1609/aies.v7i1.31715">DOI</a>
+          <a href="https://github.com/chahatraj/breakingbias">Code</a>
+        </nav>
+      </header>
+      <figure class="teaser">
+        <picture>
+          <source srcset="https://iamshnoo.github.io/images/optimized/fig1/breaking-bias-720.5673ad3cd0.avif" type="image/avif" />
+          <img src="https://iamshnoo.github.io/images/optimized/fig1/breaking-bias-720.5471a18200.webp" width="509" height="720" alt="Breaking Bias poster-style figure summarizing contact-hypothesis bias probing and mitigation." />
+        </picture>
+        <figcaption class="subtitle">We simulate social contact in prompts, measure social biases across 13 dimensions, and reduce biased behavior through Social Contact Debiasing.</figcaption>
+      </figure>
+      <section aria-labelledby="abstract-title">
+        <h2 id="abstract-title">Abstract</h2>
+        <div class="section-card"><p>Large Language Models (LLMs) perpetuate social biases, reflecting prejudices in their training data and reinforcing societal stereotypes and inequalities. Our work explores the potential of the Contact Hypothesis, a concept from social psychology for debiasing LLMs. We simulate various forms of social contact through LLM prompting to measure their influence on the model's biases, mirroring how intergroup interactions can reduce prejudices in social contexts. We create a dataset of 108,000 prompts following a principled approach replicating social contact to measure biases in three LLMs (LLaMA 2, Tulu, and NousHermes) across 13 social bias dimensions. We propose a unique debiasing technique, Social Contact Debiasing (SCD), that instruction-tunes these models with unbiased responses to prompts. Our research demonstrates that LLM responses exhibit social biases when subject to contact probing, but more importantly, these biases can be significantly reduced by up to 40% in 1 epoch of instruction tuning LLaMA 2 following our SCD strategy.</p></div>
+      </section>
+      <section aria-labelledby="highlights-title">
+        <h2 id="highlights-title">Highlights</h2>
+        <div class="grid"><div class="point"><strong>Contact probing</strong>Uses social-contact prompts to expose how LLM responses vary across social bias dimensions.</div><div class="point"><strong>Large prompt set</strong>Builds 108,000 prompts spanning 13 bias dimensions and three LLMs.</div><div class="point"><strong>Debiasing</strong>Instruction-tunes models with unbiased responses, reducing measured biases by up to 40% after one epoch.</div></div>
+      </section>
+      <section aria-labelledby="bibtex-title">
+        <h2 id="bibtex-title">BibTeX</h2>
+        <pre><code>@article{raj2024breaking,
+  title = {Breaking Bias, Building Bridges: Evaluation and Mitigation of Social Biases in LLMs via Contact Hypothesis},
+  author = {Raj, Chahat and Mukherjee, Anjishnu and Caliskan, Aylin and Anastasopoulos, Antonios and Zhu, Ziwei},
+  journal = {Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society},
+  volume = {7},
+  number = {1},
+  pages = {1180--1189},
+  year = {2024},
+  doi = {10.1609/aies.v7i1.31715},
+  url = {https://doi.org/10.1609/aies.v7i1.31715}
+}</code></pre>
+      </section>
+    </main>
+  </body>
+</html>
