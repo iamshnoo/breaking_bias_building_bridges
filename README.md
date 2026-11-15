@@ -9,7 +9,7 @@ LLM answers follow the Contact Hypothesis from social psychology. A sentence of 
 - arXiv: https://arxiv.org/abs/2407.02030
 - Code: https://github.com/chahatraj/breakingbias
 
-This repository holds the project page only. It is generated from [iamshnoo.github.io](https://github.com/iamshnoo/iamshnoo.github.io) by `scripts/build-paper-sites.mjs`; edit the data there, not this HTML.
+This repository holds the project page only. It is generated from [iamshnoo.github.io](https://github.com/iamshnoo/iamshnoo.github.io) by `scripts/build-paper-sites.mjs`. You can also edit `index.html` here directly: once the file is changed by hand, the generator leaves it as you wrote it.
 
 ## Citation
 

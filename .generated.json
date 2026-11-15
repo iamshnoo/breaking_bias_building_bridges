@@ -1,0 +1,4 @@
+{
+  "sha256": "0013dd0d658b1420d80b5808334d505266fad5b3a2c29425ccb5b2467a7de4a5",
+  "note": "Hash of the generated index.html. If index.html is edited by hand, build-paper-sites.mjs keeps the edit."
+}
